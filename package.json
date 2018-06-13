@@ -1,0 +1,21 @@
+{
+  "name": "kunstsaxen_dk",
+  "version": "1.0.0",
+  "description": "Website for an online antiques shop, with no payment methode",
+  "main": "production/index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".git"
+  },
+  "keywords": [
+    "PHP",
+    "gulp",
+    "browserify",
+    "scss"
+  ],
+  "author": "Michael Houmann",
+  "license": "ISC"
+}
