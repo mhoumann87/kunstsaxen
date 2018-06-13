@@ -139,6 +139,6 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
-./production/private/includes/dbconfig.inc.php
+production/private/includes/dbconfig.inc.php
 
-
+production/public/assets/images
