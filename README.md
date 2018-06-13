@@ -1,6 +1,6 @@
 # Website for a antiques shop
 
-## #www.kunstsaxen.dk
+### www.kunstsaxen.dk
 
 #### Made with
 PHP, gulp, scss, browserify
