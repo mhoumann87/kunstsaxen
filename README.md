@@ -1,8 +1,8 @@
-#Website for a antiques shop
+# Website for a antiques shop
 
-###www.kunstsaxen.dk
+## #www.kunstsaxen.dk
 
-####Made with
+#### Made with
 PHP, gulp, scss, browserify
 
 All dependensies in the package.json file
