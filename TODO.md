@@ -1,0 +1,2 @@
+- Remember to delete error handling in initialize.php before upload.
+- Change php.ini so it takes care of error handling
