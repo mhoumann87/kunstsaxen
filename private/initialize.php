@@ -11,10 +11,10 @@ ob_start();
   TODO: ADD IT TO THE php.ini file
   ! THIS MUST BE DELETED BEFORE UPLOAD 
 */
-/* ini_set('display_errors', 1); 
+ini_set('display_errors', 1); 
 ini_set('display_startup_errors', 1); 
-error_reporting(E_ALL); */
-/* 
+error_reporting(E_ALL);
+/*
 ! REMEMBER TO DELETE  
 */
 /*
@@ -38,4 +38,11 @@ $doc_root = substr($_SERVER['SCRIPT_NAME'], 0, $public_end);
 define('WWW_ROOT', $doc_root);
 
 // Add all the files needed for this project
+require_once 'db_credentials.php';
 require_once 'functions.php';
+
+$db = db_connect();
+
+DatabaseObject::set_database($db);
+
+$session = new $session;
